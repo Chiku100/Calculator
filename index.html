@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/icons8-calculator.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Frontend Mentor | Calculator app</title>
+
+</head>
+
+<body>
+  <main>
+    <div class="top">
+      <h1>Calculator</h1>
+      <div class="themes">
+        <div></div>
+        <span>1 2 3</span>
+        <div>theme</div>
+        <button id="toggler" type="button"></button>
+        <div class="dotparent">
+          <div class="dot"></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="result" type="text"></div>
+    </div>
+    <div class="operatorsparent">
+      <div class="operators">
+        <button class="butn" id="val7" value="7" data-num type="button">7</button>
+        <button class="butn" id="val8" value="8" type="button">8</button>
+        <button class="butn" id="val9" value="9" type="button">9</button>
+        <button class="butn dltbtn" type="button">del</button>
+        <button class="butn" id="val4" value="4" type="button">4</button>
+        <button class="butn" id="val5" value="5" type="button">5</button>
+        <button class="butn" id="val6" value="6" type="button">6</button>
+        <button class="butn" id="plus" type="button">+</button>
+        <button class="butn" id="val1" value="1" type="button">1</button>
+        <button class="butn" id="val2" value="2" type="button">2</button>
+        <button class="butn" id="val3" value="3" type="button">3</button>
+        <button class="butn" id="minus" type="button">-</button>
+        <button class="butn" type="button">.</button>
+        <button class="butn" id="val0" value="0" type="button">0</button>
+        <button class="butn" type="button">/</button>
+        <button class="butn" type="button">*</button>
+      </div>
+      <div class="bottom">
+        <button class="butn reset" type="button">reset</button>
+        <button class="butn eql" type="button">=</button>
+      </div>
+    </div>
+    </div>
+  </main>
+  <script src="./index.js"></script>
+
+
+</body>
+<footer>
+  <div class="attribution">
+    Coded by <a href="https://twitter.com/goodjujutrate"><em> Abhilash</em> with <span> Love</span>.</a>
+  </div>
+</footer>
+
+</html>
