@@ -243,6 +243,7 @@ button:active {
     }
 
     .operators {
+        overflow:hidden;
         padding: 1rem;
         width: 90%;
     }
@@ -253,5 +254,8 @@ button:active {
 
     .bottom {
         padding: 0 1rem 1rem;
+    }
+     .operators button{
+        font-size: 1.5rem;
     }
 }
